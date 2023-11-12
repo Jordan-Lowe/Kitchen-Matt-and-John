@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* background-color: #252422; */
+  background-color: #fff;
+}
+
+.appContainer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  color: black;
+}
+
+li,
+a {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.5rem; /* Base size for larger screens */
+}
+
+p {
+  font-size: 1.5rem; /* Base size for larger screens */
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}

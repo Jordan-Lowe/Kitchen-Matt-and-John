@@ -1,0 +1,41 @@
+.reviewContainer {
+  position: absolute;
+  bottom: 0;
+  height: 45%;
+  width: 90%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.reviewContent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* overflow-y: scroll; */
+  font-size: 1.5rem;
+  text-shadow: black 0px 0px 10px;
+}
+
+.arrowButton {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px;
+  z-index: 10;
+}
+
+.arrowButton:hover {
+  background-color: #333;
+  color: white;
+}

@@ -1,0 +1,115 @@
+/* Existing Styles */
+.navBarSection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 5px;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  z-index: 1000;
+}
+
+.navBarContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #333; */
+}
+
+.navBarList {
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+  list-style: none;
+}
+
+.navHome {
+  filter: brightness(0) invert(1);
+  text-decoration: none;
+  font-size: 1.5vw;
+
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}
+
+.navLogoImg {
+  width: 5vw;
+  height: 5vh;
+}
+
+.navFacebookImg {
+  width: 4vw;
+  height: 4vh;
+  filter: brightness(0) invert(1);
+
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+  }
+}
+
+.navInstagramImg {
+  width: 4vw;
+  height: 5vh;
+  filter: brightness(0) invert(1);
+
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+  }
+}
+
+/* Media Queries for Responsiveness */
+/* Mobile (small) */
+@media (max-width: 480px) {
+  .navBarContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navBarList a {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile (landscape) and Tablets (portrait) */
+@media (max-width: 768px) {
+  .navBarContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navBarList li {
+    font-size: 5vw;
+  }
+}
+
+/* Tablets (landscape) and smaller laptops/screens */
+@media (max-width: 1024px) {
+  .navBarList li {
+    font-size: 4.5vw;
+  }
+}
+
+/* Laptops and desktops */
+@media (max-width: 1200px) {
+  .navBarList li {
+    font-size: 4vw;
+  }
+}
