@@ -26,6 +26,7 @@
   align-items: center;
   z-index: 1;
   list-style: none;
+  font-weight: 600;
 }
 
 .navHome {

@@ -31,19 +31,15 @@ function WardrobePage() {
               <div className="space"></div>
               <h2>Wardrobe Installations</h2>
               <p className="kitchenInfo">
-                Elevate your storage solutions with our exceptional fixed set
-                wardrobe installations. DBI Interior Specialist is your trusted
-                partner in seamlessly incorporating stylish and functional
-                wardrobes into your living space.<br></br>
-                <br></br> Our dedicated team excels at efficiently installing
-                pre-designed and custom wardrobe sets that maximize your storage
-                potential while enhancing your interior.<br></br>
-                <br></br> With a focus on precision and attention to detail, we
-                ensure a hassle-free process from start to finish. Discover the
-                perfect blend of convenience and aesthetics with our reliable
-                wardrobe installation services. Your contentment is paramount,
-                and we're dedicated to delivering outcomes that go above and
-                beyond your expectations.
+                DBI Studio provides a range of services, offering either
+                flat-packed or custom-fitted wardrobes. Whatever your specific
+                needs or ideas may be, we can bring them to life. Our
+                collaboration with you ensures the creation of a space that not
+                only aligns with your design preferences but also caters to your
+                functional requirements. Effective storage is often overlooked,
+                yet it plays a crucial role in a well-functioning home. This is
+                where DBI Studio excels—we help you eliminate clutter and
+                organize your home just the way you've always envisioned.
               </p>
             </div>
           </div>

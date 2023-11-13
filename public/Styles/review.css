@@ -1,8 +1,8 @@
 .reviewContainer {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  height: 45%;
-  width: 90%;
+  height: 32%;
+  width: 97%;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -12,15 +12,28 @@
   text-align: center;
   font-size: 2rem;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.revTitle {
+  display: flex;
+  top: 0%;
+  height: 10%;
+  position: absolute;
 }
 
 .reviewContent {
   display: flex;
   align-items: center;
   gap: 20px;
-  /* overflow-y: scroll; */
   font-size: 1.5rem;
   text-shadow: black 0px 0px 10px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  height: 80%;
+  bottom: 0;
+  position: absolute;
 }
 
 .arrowButton {

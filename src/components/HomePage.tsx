@@ -74,7 +74,6 @@ function HomePage() {
               src={kitchenImages[2]}
               alt="Kitchen 3"
             />
-
             <Review />
           </div>
         </div>

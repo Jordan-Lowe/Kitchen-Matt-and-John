@@ -1,196 +1,196 @@
 .contactSection {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	scroll-snap-align: center;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  scroll-snap-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactContainer {
-	height: 100%;
-	width: 80%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 
 .contactLeft {
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	background: #fff;
-	width: 100%;
-	height: 100%;
-	left: 0%;
-	border-radius: 5px;
-	padding-right: 3px;
-	margin-right: 3px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #fcfcfc;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  border-radius: 5px;
+  padding-right: 3px;
+  margin-right: 3px;
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
 }
 
 h2 span {
-	display: block;
+  display: block;
 }
 
 .contactForm {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 35px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
 }
 
 .contactInput {
-	width: 50%;
-	padding: 20px;
-	background-color: lightgray;
-	border: none;
-	border-radius: 5px;
+  width: 50%;
+  padding: 20px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
 }
 
 .contactTextArea {
-	width: 50%;
-	padding: 20px;
-	background-color: lightgray;
-	border: none;
-	border-radius: 5px;
+  width: 50%;
+  padding: 20px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
 }
 
 .contactButton {
-	background-color: #57a773;
-	width: 55%;
-	color: white;
-	font-size: 20px;
-	font-weight: bold;
-	cursor: pointer;
-	padding: 20px;
+  background-color: #57a773;
+  width: 55%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px;
 }
 
 .contactRight {
-	flex: 1;
-	color: white;
-	display: flex;
-	justify-content: end;
-	position: relative;
-	overflow: hidden;
-	padding-left: 3px;
-	height: 100%;
-	width: 100%;
-	margin-left: 3px;
-	position: relative;
+  flex: 1;
+  color: white;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  overflow: hidden;
+  padding-left: 3px;
+  height: 100%;
+  width: 100%;
+  margin-left: 3px;
+  position: relative;
 }
 
 .contactCall {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contactNumber {
-	padding: 10px;
-	color: #333;
+  padding: 10px;
+  color: #333;
 }
 
 .contactMap {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 99%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 99%;
 }
 
 .contactRight {
-	border: 2px solid #333;
+  border: 2px solid #333;
 }
 
 @media (max-width: 250px) {
-	.contactContainer {
-		flex-direction: column;
-	}
+  .contactContainer {
+    flex-direction: column;
+  }
 
-	.contactLeft,
-	.contactRight {
-		width: 100%;
-		padding: 10px 0;
-	}
+  .contactLeft,
+  .contactRight {
+    width: 100%;
+    padding: 10px 0;
+  }
 }
 
 /* Media Queries for Responsiveness */
 /* Mobile (small) */
 @media (max-width: 480px) {
-	.contactContainer {
-		flex-direction: column;
-	}
+  .contactContainer {
+    flex-direction: column;
+  }
 
-	.contactLeft,
-	.contactRight {
-		width: 100%;
-		padding: 10px 0;
-	}
+  .contactLeft,
+  .contactRight {
+    width: 100%;
+    padding: 10px 0;
+  }
 }
 
 /* Mobile (landscape) and Tablets (portrait) */
 @media (max-width: 768px) {
-	.contactContainer {
-		flex-direction: column;
-	}
+  .contactContainer {
+    flex-direction: column;
+  }
 
-	.contactLeft,
-	.contactRight {
-		width: 100%;
-		padding: 15px 0;
-	}
+  .contactLeft,
+  .contactRight {
+    width: 100%;
+    padding: 15px 0;
+  }
 }
 
 /* Tablets (landscape) and smaller laptops/screens */
 @media (max-width: 1024px) {
-	.contactContainer {
-		flex-direction: column;
-	}
+  .contactContainer {
+    flex-direction: column;
+  }
 
-	.contactLeft,
-	.contactRight {
-		width: 100%;
-		padding: 20px 0;
-	}
+  .contactLeft,
+  .contactRight {
+    width: 100%;
+    padding: 20px 0;
+  }
 }
 
 /* Laptops and desktops */
 @media (max-width: 1200px) {
-	.contactContainer {
-		flex-direction: column;
-	}
+  .contactContainer {
+    flex-direction: column;
+  }
 
-	.contactLeft,
-	.contactRight {
-		width: 100%;
-		padding: 25px 0;
-	}
+  .contactLeft,
+  .contactRight {
+    width: 100%;
+    padding: 25px 0;
+  }
 }
 
 /* Ensuring the contactRight (map container) has a defined height on smaller screens */
 @media (max-width: 768px) {
-	.contactRight {
-		height: 300px;
-	}
+  .contactRight {
+    height: 300px;
+  }
 }
 
 @media (max-width: 480px) {
-	.contactRight {
-		height: 250px;
-	}
+  .contactRight {
+    height: 250px;
+  }
 }
 
 @media (max-width: 250px) {
-	.contactRight {
-		height: 200px;
-	}
+  .contactRight {
+    height: 200px;
+  }
 }

@@ -19,12 +19,17 @@ function Review() {
 
   return (
     <div className="reviewContainer">
-      <h3>{currentReview.name}</h3>
+      <div className="revTitle">
+        <h3>Customer Reviews</h3>
+      </div>
       <div className="reviewContent">
         <button className="arrowButton prevButton" onClick={previousReview}>
           ←
         </button>
-        <h6>{currentReview.review}</h6>
+        <div className="custRev">
+          <h6>{currentReview.review}</h6>
+          <h4>{currentReview.name}</h4>
+        </div>
         <button className="arrowButton nextButton" onClick={nextReview}>
           →
         </button>

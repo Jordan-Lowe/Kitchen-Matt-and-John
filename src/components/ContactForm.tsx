@@ -38,7 +38,8 @@ const ContactForm = () => {
         <div className="contactLeft">
           <form className="contactForm" ref={ref} onSubmit={handleSubmit}>
             <h2>
-              Contact us for a free<br></br> <span>consultation!</span>
+              Get in touch with us today<br></br>{' '}
+              <span>or visit us in store!</span>
             </h2>
             <input
               className="contactInput"
@@ -64,12 +65,12 @@ const ContactForm = () => {
             {success &&
               'Your message has been sent. I will get back to you soon'}
           </form>
-          <div className="contactCall">
+          {/* <div className="contactCall">
             <h2 className="contactNumber">
-              Call us today!<br></br>
+              Or Call us today!<br></br>
               022555645
             </h2>
-          </div>
+          </div> */}
         </div>
         <div className="contactRight">
           <div className="contactMap">
